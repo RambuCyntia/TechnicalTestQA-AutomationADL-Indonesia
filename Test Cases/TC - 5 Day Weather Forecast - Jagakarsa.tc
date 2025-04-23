@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - 5 Day Weather Forecast - Jagakarsa</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>13b3b9e6-3b6e-4d47-8e98-8c80f7205a0c</testCaseGuid>
+</TestCaseEntity>

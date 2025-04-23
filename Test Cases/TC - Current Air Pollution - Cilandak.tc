@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Current Air Pollution - Cilandak</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5614db6e-2ae9-4d3a-9d1d-18ef0da6b6fe</testCaseGuid>
+</TestCaseEntity>

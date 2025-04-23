@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Current Air Pollution - Pancoran</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>17518c2c-81e8-4d44-aaac-9ad29f833e75</testCaseGuid>
+</TestCaseEntity>

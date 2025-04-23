@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - 5 Day Weather Forecast - Cilandak</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>128a03d7-ce5a-4acc-a07b-f32434aa5ec1</testCaseGuid>
+</TestCaseEntity>

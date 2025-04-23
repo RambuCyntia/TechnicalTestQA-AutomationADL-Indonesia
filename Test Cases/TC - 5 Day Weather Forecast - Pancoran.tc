@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - 5 Day Weather Forecast - Pancoran</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6372b582-183c-4ce2-b06c-cb3bf62902b2</testCaseGuid>
+</TestCaseEntity>
