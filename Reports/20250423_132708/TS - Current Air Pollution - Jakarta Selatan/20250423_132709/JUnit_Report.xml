@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Current Air Pollution - Jakarta Selatan" time="7.817" tests="3" failures="0" errors="0">
+   <testsuite name="TS - Current Air Pollution - Jakarta Selatan" tests="3" failures="0" errors="0" time="7.817" skipped="0" timestamp="23-04-2025T13:27:13" hostname="Admin - 172.26.35.219" id="Test Suites/TS - Current Air Pollution - Jakarta Selatan">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Admin\\Katalon Studio\\API Testing - Weather Forecast\\Reports\\20250423_132708\\TS - Current Air Pollution - Jakarta Selatan\\20250423_132709"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\Katalon Studio\\API Testing - Weather Forecast\\Reports\\20250423_132708\\TS - Current Air Pollution - Jakarta Selatan\\20250423_132709\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - 172.26.35.219"/>
+         <property name="hostAddress" value="172.26.35.219"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.5.223"/>
+      </properties>
+      <testcase name="Test Cases/TC - Current Air Pollution - Cilandak" time="3.931" classname="Test Cases/TC - Current Air Pollution - Cilandak" status="PASSED">
+         <system-out><![CDATA[23-04-2025T13:27:13 - [TEST_CASE][PASSED] - Test Cases/TC - Current Air Pollution - Cilandak: Test Cases/TC - Current Air Pollution - Cilandak
+
+23-04-2025T13:27:14 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/Current Air Pollution - Cilandak")): Send request successfully
+
+23-04-2025T13:27:16 - [MESSAGE][INFO] - HAR: C:\Users\Admin\Katalon Studio\API Testing - Weather Forecast\Reports\20250423_132708\TS - Current Air Pollution - Jakarta Selatan\20250423_132709\requests\main\0.har
+
+23-04-2025T13:27:16 - [MESSAGE][PASSED] - Send request successfully
+
+23-04-2025T13:27:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+23-04-2025T13:27:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+23-04-2025T13:27:16 - [TEST_STEP][PASSED] - jsonResponse = JsonSlurper().parseText(response.getResponseText()): null
+
+23-04-2025T13:27:16 - [TEST_STEP][PASSED] - aqi = aqi: null
+
+23-04-2025T13:27:16 - [TEST_STEP][PASSED] - aqiDescription = "": null
+
+23-04-2025T13:27:16 - [TEST_STEP][PASSED] - switch (aqi): null
+
+23-04-2025T13:27:16 - [TEST_STEP][PASSED] - case 1:: null
+
+23-04-2025T13:27:16 - [TEST_STEP][PASSED] - aqiDescription = "Good": null
+
+23-04-2025T13:27:16 - [TEST_STEP][PASSED] - break: null
+
+23-04-2025T13:27:16 - [TEST_STEP][PASSED] - ResponseBody = ["location":"Cilandak, Jakarta Selatan", "AQI":aqi, "description":aqiDescription]: null
+
+23-04-2025T13:27:16 - [TEST_STEP][PASSED] - println(JsonBuilder(ResponseBody).toPrettyString()): null
+
+23-04-2025T13:27:16 - [TEST_STEP][PASSED] - markPassed(AQI: $aqi): AQI: 1
+
+23-04-2025T13:27:16 - [MESSAGE][PASSED] - AQI: 1
+
+23-04-2025T13:27:16 - [TEST_STEP][PASSED] - markPassed(Description: $aqiDescription): Description: Good
+
+23-04-2025T13:27:16 - [MESSAGE][PASSED] - Description: Good
+
+23-04-2025T13:27:16 - [TEST_STEP][PASSED] - Thread.sleep(1000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - Current Air Pollution - Jagakarsa" time="1.884" classname="Test Cases/TC - Current Air Pollution - Jagakarsa" status="PASSED">
+         <system-out><![CDATA[23-04-2025T13:27:17 - [TEST_CASE][PASSED] - Test Cases/TC - Current Air Pollution - Jagakarsa: Test Cases/TC - Current Air Pollution - Jagakarsa
+
+23-04-2025T13:27:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/Current Air Pollution - Jagakarsa")): Send request successfully
+
+23-04-2025T13:27:18 - [MESSAGE][INFO] - HAR: C:\Users\Admin\Katalon Studio\API Testing - Weather Forecast\Reports\20250423_132708\TS - Current Air Pollution - Jakarta Selatan\20250423_132709\requests\main\1.har
+
+23-04-2025T13:27:18 - [MESSAGE][PASSED] - Send request successfully
+
+23-04-2025T13:27:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+23-04-2025T13:27:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+23-04-2025T13:27:18 - [TEST_STEP][PASSED] - jsonResponse = JsonSlurper().parseText(response.getResponseText()): null
+
+23-04-2025T13:27:18 - [TEST_STEP][PASSED] - aqi = aqi: null
+
+23-04-2025T13:27:18 - [TEST_STEP][PASSED] - aqiDescription = "": null
+
+23-04-2025T13:27:18 - [TEST_STEP][PASSED] - switch (aqi): null
+
+23-04-2025T13:27:18 - [TEST_STEP][PASSED] - case 1:: null
+
+23-04-2025T13:27:18 - [TEST_STEP][PASSED] - aqiDescription = "Good": null
+
+23-04-2025T13:27:18 - [TEST_STEP][PASSED] - break: null
+
+23-04-2025T13:27:18 - [TEST_STEP][PASSED] - ResponseBody = ["location":"Cilandak, Jakarta Selatan", "AQI":aqi, "description":aqiDescription]: null
+
+23-04-2025T13:27:18 - [TEST_STEP][PASSED] - println(JsonBuilder(ResponseBody).toPrettyString()): null
+
+23-04-2025T13:27:18 - [TEST_STEP][PASSED] - markPassed(AQI: $aqi): AQI: 1
+
+23-04-2025T13:27:18 - [MESSAGE][PASSED] - AQI: 1
+
+23-04-2025T13:27:18 - [TEST_STEP][PASSED] - markPassed(Description: $aqiDescription): Description: Good
+
+23-04-2025T13:27:18 - [MESSAGE][PASSED] - Description: Good
+
+23-04-2025T13:27:18 - [TEST_STEP][PASSED] - Thread.sleep(1000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - Current Air Pollution - Pancoran" time="1.815" classname="Test Cases/TC - Current Air Pollution - Pancoran" status="PASSED">
+         <system-out><![CDATA[23-04-2025T13:27:19 - [TEST_CASE][PASSED] - Test Cases/TC - Current Air Pollution - Pancoran: Test Cases/TC - Current Air Pollution - Pancoran
+
+23-04-2025T13:27:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/Current Air Pollution - Pancoran")): Send request successfully
+
+23-04-2025T13:27:20 - [MESSAGE][INFO] - HAR: C:\Users\Admin\Katalon Studio\API Testing - Weather Forecast\Reports\20250423_132708\TS - Current Air Pollution - Jakarta Selatan\20250423_132709\requests\main\2.har
+
+23-04-2025T13:27:20 - [MESSAGE][PASSED] - Send request successfully
+
+23-04-2025T13:27:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+23-04-2025T13:27:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+23-04-2025T13:27:20 - [TEST_STEP][PASSED] - jsonResponse = JsonSlurper().parseText(response.getResponseText()): null
+
+23-04-2025T13:27:20 - [TEST_STEP][PASSED] - aqi = aqi: null
+
+23-04-2025T13:27:20 - [TEST_STEP][PASSED] - aqiDescription = "": null
+
+23-04-2025T13:27:20 - [TEST_STEP][PASSED] - switch (aqi): null
+
+23-04-2025T13:27:20 - [TEST_STEP][PASSED] - case 1:: null
+
+23-04-2025T13:27:20 - [TEST_STEP][PASSED] - aqiDescription = "Good": null
+
+23-04-2025T13:27:20 - [TEST_STEP][PASSED] - break: null
+
+23-04-2025T13:27:20 - [TEST_STEP][PASSED] - ResponseBody = ["location":"Cilandak, Jakarta Selatan", "AQI":aqi, "description":aqiDescription]: null
+
+23-04-2025T13:27:20 - [TEST_STEP][PASSED] - println(JsonBuilder(ResponseBody).toPrettyString()): null
+
+23-04-2025T13:27:20 - [TEST_STEP][PASSED] - markPassed(AQI: $aqi): AQI: 1
+
+23-04-2025T13:27:20 - [MESSAGE][PASSED] - AQI: 1
+
+23-04-2025T13:27:20 - [TEST_STEP][PASSED] - markPassed(Description: $aqiDescription): Description: Good
+
+23-04-2025T13:27:20 - [MESSAGE][PASSED] - Description: Good
+
+23-04-2025T13:27:20 - [TEST_STEP][PASSED] - Thread.sleep(1000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-04-2025T13:27:13 - [TEST_SUITE][PASSED] - TS - Current Air Pollution - Jakarta Selatan: Test Cases/TC - Current Air Pollution - Pancoran]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

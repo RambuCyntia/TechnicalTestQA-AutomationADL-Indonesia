@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Current Air Pollution - Jakarta Selatan,,,,23-04-2025 13:27:13,23-04-2025 13:27:21,7.817s,PASSED
+,,,,,,,
+Test Cases/TC - Current Air Pollution - Cilandak,,,,23-04-2025 13:27:13,23-04-2025 13:27:17,3.931s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/Current Air Pollution - Cilandak""))",,,,23-04-2025 13:27:14,23-04-2025 13:27:16,2.155s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,23-04-2025 13:27:16,23-04-2025 13:27:16,0.019s,PASSED
+jsonResponse = JsonSlurper().parseText(response.getResponseText()),,,,23-04-2025 13:27:16,23-04-2025 13:27:16,0.029s,PASSED
+aqi = aqi,,,,23-04-2025 13:27:16,23-04-2025 13:27:16,0.012s,PASSED
+"aqiDescription = """"",,,,23-04-2025 13:27:16,23-04-2025 13:27:16,0.002s,PASSED
+switch (aqi),,,,23-04-2025 13:27:16,23-04-2025 13:27:16,0.009s,PASSED
+"ResponseBody = [""location"":""Cilandak, Jakarta Selatan"", ""AQI"":aqi, ""description"":aqiDescription]",,,,23-04-2025 13:27:16,23-04-2025 13:27:16,0.002s,PASSED
+println(JsonBuilder(ResponseBody).toPrettyString()),,,,23-04-2025 13:27:16,23-04-2025 13:27:16,0.027s,PASSED
+markPassed(AQI: $aqi),,,,23-04-2025 13:27:16,23-04-2025 13:27:16,0.056s,PASSED
+markPassed(Description: $aqiDescription),,,,23-04-2025 13:27:16,23-04-2025 13:27:16,0.003s,PASSED
+Thread.sleep(1000),,,,23-04-2025 13:27:16,23-04-2025 13:27:17,1.019s,PASSED
+,,,,,,,
+Test Cases/TC - Current Air Pollution - Jagakarsa,,,,23-04-2025 13:27:17,23-04-2025 13:27:19,1.884s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/Current Air Pollution - Jagakarsa""))",,,,23-04-2025 13:27:17,23-04-2025 13:27:18,0.668s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,23-04-2025 13:27:18,23-04-2025 13:27:18,0.005s,PASSED
+jsonResponse = JsonSlurper().parseText(response.getResponseText()),,,,23-04-2025 13:27:18,23-04-2025 13:27:18,0.004s,PASSED
+aqi = aqi,,,,23-04-2025 13:27:18,23-04-2025 13:27:18,0.006s,PASSED
+"aqiDescription = """"",,,,23-04-2025 13:27:18,23-04-2025 13:27:18,0.002s,PASSED
+switch (aqi),,,,23-04-2025 13:27:18,23-04-2025 13:27:18,0.004s,PASSED
+"ResponseBody = [""location"":""Cilandak, Jakarta Selatan"", ""AQI"":aqi, ""description"":aqiDescription]",,,,23-04-2025 13:27:18,23-04-2025 13:27:18,0.001s,PASSED
+println(JsonBuilder(ResponseBody).toPrettyString()),,,,23-04-2025 13:27:18,23-04-2025 13:27:18,0.004s,PASSED
+markPassed(AQI: $aqi),,,,23-04-2025 13:27:18,23-04-2025 13:27:18,0.004s,PASSED
+markPassed(Description: $aqiDescription),,,,23-04-2025 13:27:18,23-04-2025 13:27:18,0.003s,PASSED
+Thread.sleep(1000),,,,23-04-2025 13:27:18,23-04-2025 13:27:19,1.015s,PASSED
+,,,,,,,
+Test Cases/TC - Current Air Pollution - Pancoran,,,,23-04-2025 13:27:19,23-04-2025 13:27:21,1.815s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/Current Air Pollution - Pancoran""))",,,,23-04-2025 13:27:19,23-04-2025 13:27:20,0.591s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,23-04-2025 13:27:20,23-04-2025 13:27:20,0.005s,PASSED
+jsonResponse = JsonSlurper().parseText(response.getResponseText()),,,,23-04-2025 13:27:20,23-04-2025 13:27:20,0.004s,PASSED
+aqi = aqi,,,,23-04-2025 13:27:20,23-04-2025 13:27:20,0.002s,PASSED
+"aqiDescription = """"",,,,23-04-2025 13:27:20,23-04-2025 13:27:20,0.001s,PASSED
+switch (aqi),,,,23-04-2025 13:27:20,23-04-2025 13:27:20,0.004s,PASSED
+"ResponseBody = [""location"":""Cilandak, Jakarta Selatan"", ""AQI"":aqi, ""description"":aqiDescription]",,,,23-04-2025 13:27:20,23-04-2025 13:27:20,0.002s,PASSED
+println(JsonBuilder(ResponseBody).toPrettyString()),,,,23-04-2025 13:27:20,23-04-2025 13:27:20,0.002s,PASSED
+markPassed(AQI: $aqi),,,,23-04-2025 13:27:20,23-04-2025 13:27:20,0.002s,PASSED
+markPassed(Description: $aqiDescription),,,,23-04-2025 13:27:20,23-04-2025 13:27:20,0.001s,PASSED
+Thread.sleep(1000),,,,23-04-2025 13:27:20,23-04-2025 13:27:21,1.013s,PASSED

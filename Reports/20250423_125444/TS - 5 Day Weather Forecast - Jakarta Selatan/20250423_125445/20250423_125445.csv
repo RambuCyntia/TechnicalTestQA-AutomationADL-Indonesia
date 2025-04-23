@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - 5 Day Weather Forecast - Jakarta Selatan,,,,23-04-2025 12:54:49,23-04-2025 12:54:57,8.236s,PASSED
+,,,,,,,
+Test Cases/TC - 5 Day Weather Forecast - Cilandak,,,,23-04-2025 12:54:49,23-04-2025 12:54:53,4.273s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/5 Day Weather Forecast - Cilandak""))",,,,23-04-2025 12:54:50,23-04-2025 12:54:52,2.618s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,23-04-2025 12:54:52,23-04-2025 12:54:52,0.017s,PASSED
+"city = getElementPropertyValue(response, ""city.name"")",,,,23-04-2025 12:54:52,23-04-2025 12:54:52,0.056s,PASSED
+logInfo(City in response: $city),,,,23-04-2025 12:54:52,23-04-2025 12:54:52,0.016s,PASSED
+"assert city.contains(""Cilandak"")",,,,23-04-2025 12:54:52,23-04-2025 12:54:52,0.010s,PASSED
+jsonResponse = JsonSlurper().parseText(response.getResponseText()),,,,23-04-2025 12:54:52,23-04-2025 12:54:52,0.012s,PASSED
+"assert dt_txt.startsWith(""2025-04-23"")",,,,23-04-2025 12:54:52,23-04-2025 12:54:52,0.007s,PASSED
+Thread.sleep(1000),,,,23-04-2025 12:54:52,23-04-2025 12:54:53,1.021s,PASSED
+,,,,,,,
+Test Cases/TC - 5 Day Weather Forecast - Jagakarsa,,,,23-04-2025 12:54:53,23-04-2025 12:54:56,2.034s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/5 Day Weather Forecast - Jagakarsa""))",,,,23-04-2025 12:54:54,23-04-2025 12:54:54,0.786s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,23-04-2025 12:54:54,23-04-2025 12:54:54,0.003s,PASSED
+"city = getElementPropertyValue(response, ""city.name"")",,,,23-04-2025 12:54:54,23-04-2025 12:54:54,0.019s,PASSED
+logInfo(City in response: $city),,,,23-04-2025 12:54:54,23-04-2025 12:54:54,0.002s,PASSED
+"assert city.contains(""Jagakarsa"")",,,,23-04-2025 12:54:54,23-04-2025 12:54:54,0.002s,PASSED
+jsonResponse = JsonSlurper().parseText(response.getResponseText()),,,,23-04-2025 12:54:54,23-04-2025 12:54:54,0.005s,PASSED
+"assert dt_txt.startsWith(""2025-04-23"")",,,,23-04-2025 12:54:54,23-04-2025 12:54:54,0.003s,PASSED
+Thread.sleep(1000),,,,23-04-2025 12:54:54,23-04-2025 12:54:56,1.007s,PASSED
+,,,,,,,
+Test Cases/TC - 5 Day Weather Forecast - Pancoran,,,,23-04-2025 12:54:56,23-04-2025 12:54:57,1.729s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/5 Day Weather Forecast - Pancoran""))",,,,23-04-2025 12:54:56,23-04-2025 12:54:56,0.507s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,23-04-2025 12:54:56,23-04-2025 12:54:56,0.006s,PASSED
+"city = getElementPropertyValue(response, ""city.name"")",,,,23-04-2025 12:54:56,23-04-2025 12:54:56,0.023s,PASSED
+logInfo(City in response: $city),,,,23-04-2025 12:54:56,23-04-2025 12:54:56,0.002s,PASSED
+"assert city.contains(""Pancoran"")",,,,23-04-2025 12:54:56,23-04-2025 12:54:56,0.002s,PASSED
+jsonResponse = JsonSlurper().parseText(response.getResponseText()),,,,23-04-2025 12:54:56,23-04-2025 12:54:56,0.001s,PASSED
+"assert dt_txt.startsWith(""2025-04-23"")",,,,23-04-2025 12:54:56,23-04-2025 12:54:56,0.002s,PASSED
+Thread.sleep(1000),,,,23-04-2025 12:54:56,23-04-2025 12:54:57,1.009s,PASSED
